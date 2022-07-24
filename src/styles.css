@@ -1,23 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
 body {
-  font-family: sans-serif;
-  padding: 0 20px;
+  background: linear-gradient(-225deg, #77ffd2 0%, #6297db 48%, #1eecff 100%);
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #eee;
+  text-align: center;
+}
+
+div.container {
+  text-align: center;
+  max-width: 670px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 20px;
 }
 
 h1 {
+  padding: 30px;
+}
+a {
+  color: white;
+}
+
+.search {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+
+.search input {
+  height: 40px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4;
+}
+
+.search input:focus {
+  box-shadow: none;
+  border: 2px solid rgb(8, 126, 225);
+}
+
+.btn {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  height: 50px;
+  width: 110px;
   text-align: center;
-  font-weight: 900;
-  margin: 0;
-  font-size: 34px;
-  line-height: 48px;
+  color: #fff;
 }
 
-h1 h2,
-h3 {
-  color: #231d3c;
+#searchButton {
+  background: rgb(8, 126, 225);
 }
 
-.logo {
-  display: block;
-  margin: 30px auto;
-  width: 150px;
+#currButton {
+  background: #19cf2ebd;
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.cities {
+  padding: 20px;
+  text-decoration: underline;
 }
